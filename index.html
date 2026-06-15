@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Future 2026 — технологический хакатон. Регистрация участников.">
+  <title>Digital Future 2026 — Хакатон</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="#hero" class="header__logo" aria-label="Digital Future 2026 — на главную">
+      <span class="header__logo-mark" aria-hidden="true">DF</span>
+      <span class="header__logo-text">Digital Future</span>
+    </a>
+
+    <nav class="header__nav" id="main-nav" aria-label="Основная навигация">
+      <ul class="header__nav-list">
+        <li><a href="#about" class="header__nav-link">О событии</a></li>
+        <li><a href="#tracks" class="header__nav-link">Направления</a></li>
+        <li><a href="#registration" class="header__nav-link">Регистрация</a></li>
+        <li class="header__nav-cta-item"><a href="#registration" class="btn btn--accent">Принять участие</a></li>
+      </ul>
+    </nav>
+
+    <a href="#registration" class="btn btn--primary header__cta">Принять участие</a>
+
+    <button type="button" class="header__burger" id="burger" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+      <span class="header__burger-line"></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bg-gradient"></div>
+        <div class="hero__bg-grid"></div>
+      </div>
+
+      <div class="hero__content container">
+        <p class="hero__tagline">
+          <span class="hero__tagline-line" aria-hidden="true"></span>
+          Технологический хакатон
+        </p>
+        <h1 class="hero__title" id="hero-title">Digital Future 2026</h1>
+        <p class="hero__desc">Создавайте продукты будущего за 48 часов вместе с инженерами, дизайнерами и исследователями ИИ.</p>
+        <p class="hero__meta">
+          <time datetime="2026-05-15">15–17 мая 2026</time>
+          <span class="hero__meta-sep" aria-hidden="true">·</span>
+          <span>Online + Москва, Digital Hub</span>
+        </p>
+        <a href="#registration" class="btn btn--accent hero__cta">Зарегистрироваться</a>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-text">Scroll down</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+
+      <aside class="hero__social" aria-label="Социальные сети">
+        <span class="hero__social-label">Follow us</span>
+        <ul class="hero__social-list">
+          <li><a href="https://github.com" class="hero__social-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://t.me" class="hero__social-link" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+          <li><a href="https://vk.com" class="hero__social-link" target="_blank" rel="noopener noreferrer">VK</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="section__head">
+          <span class="section__number" aria-hidden="true">01</span>
+          <span class="section__label">О событии</span>
+        </div>
+        <div class="about__body">
+          <h2 class="section__title" id="about-title">Где идеи становятся продуктами</h2>
+          <div class="about__text">
+            <p><strong>Digital Future 2026</strong> — это 48-часовой марафон для разработчиков, DevOps-инженеров и специалистов по машинному обучению. Команды решают реальные кейсы от IT-партнёров и представляют прототипы жюри из индустрии.</p>
+            <p>Цель хакатона — развить навыки командной работы, быстрого прототипирования и применения современных технологий: от облачной инфраструктуры до нейросетевых моделей.</p>
+            <p>Участники получают менторскую поддержку, доступ к API партнёров, призы и возможность стажировки в технологических компаниях.</p>
+          </div>
+          <ul class="about__stats" aria-label="Ключевые показатели">
+            <li class="about__stat">
+              <span class="about__stat-value">48</span>
+              <span class="about__stat-label">часов кода</span>
+            </li>
+            <li class="about__stat">
+              <span class="about__stat-value">3</span>
+              <span class="about__stat-label">трека</span>
+            </li>
+            <li class="about__stat">
+              <span class="about__stat-value">500+</span>
+              <span class="about__stat-label">участников</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tracks section" id="tracks" aria-labelledby="tracks-title">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <span class="section__number" aria-hidden="true">02</span>
+          <span class="section__label">Направления</span>
+          <h2 class="section__title" id="tracks-title">Выберите свой трек</h2>
+          <p class="section__subtitle">Три направления — одна цель: создать работающий прототип за выходные.</p>
+        </div>
+
+        <ul class="tracks__grid">
+          <li class="track-card">
+            <span class="track-card__index" aria-hidden="true">01</span>
+            <h3 class="track-card__title">Программирование</h3>
+            <p class="track-card__tag">Web / Mobile</p>
+            <p class="track-card__desc">Fullstack- и мобильные приложения: React, Vue, Flutter, API-first архитектура и UX для конечных пользователей.</p>
+            <a href="#registration" class="track-card__link">Участвовать <span aria-hidden="true">→</span></a>
+          </li>
+          <li class="track-card track-card--featured">
+            <span class="track-card__index" aria-hidden="true">02</span>
+            <h3 class="track-card__title">Сетевые технологии</h3>
+            <p class="track-card__tag">Infrastructure / DevOps</p>
+            <p class="track-card__desc">Контейнеризация, CI/CD, облачные платформы, мониторинг и отказоустойчивые системы в production-среде.</p>
+            <a href="#registration" class="track-card__link">Участвовать <span aria-hidden="true">→</span></a>
+          </li>
+          <li class="track-card">
+            <span class="track-card__index" aria-hidden="true">03</span>
+            <h3 class="track-card__title">Искусственный интеллект</h3>
+            <p class="track-card__tag">AI / ML</p>
+            <p class="track-card__desc">Модели машинного обучения, NLP, компьютерное зрение и интеграция LLM в бизнес-процессы.</p>
+            <a href="#registration" class="track-card__link">Участвовать <span aria-hidden="true">→</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="registration section" id="registration" aria-labelledby="registration-title">
+      <div class="container registration__inner">
+        <div class="section__head">
+          <span class="section__number" aria-hidden="true">03</span>
+          <span class="section__label">Регистрация</span>
+          <h2 class="section__title" id="registration-title">Присоединяйтесь к хакатону</h2>
+          <p class="section__subtitle">Заполните форму — мы отправим подтверждение на email в течение 24 часов.</p>
+        </div>
+
+        <form class="registration__form" id="registration-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">Имя</label>
+              <input type="text" id="first-name" name="firstName" autocomplete="given-name" required placeholder="Иван">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Фамилия</label>
+              <input type="text" id="last-name" name="lastName" autocomplete="family-name" required placeholder="Петров">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="ivan@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="track">Направление</label>
+            <select id="track" name="track" required>
+              <option value="" disabled selected>Выберите трек</option>
+              <option value="programming">Программирование (Web/Mobile)</option>
+              <option value="network">Сетевые технологии (Infrastructure/DevOps)</option>
+              <option value="ai">Искусственный интеллект (AI/ML)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="github">Ссылка на GitHub-профиль</label>
+            <input type="url" id="github" name="github" required placeholder="https://github.com/username" pattern="https?://.+">
+          </div>
+
+          <button type="submit" class="btn btn--accent btn--full">Отправить заявку</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">
+          <span class="header__logo-mark" aria-hidden="true">DF</span>
+          Digital Future 2026
+        </a>
+        <p class="footer__contact">
+          <a href="mailto:hackathon@digitalfuture.ru">hackathon@digitalfuture.ru</a><br>
+          <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Дополнительная навигация">
+        <ul>
+          <li><a href="#about">О событии</a></li>
+          <li><a href="#tracks">Направления</a></li>
+          <li><a href="#registration">Регистрация</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <span class="footer__social-title">Мы в соцсетях</span>
+        <ul class="footer__social-list">
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://t.me" target="_blank" rel="noopener noreferrer" aria-label="Telegram">Telegram</a></li>
+          <li><a href="https://vk.com" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте">VK</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy container">© 2026 Digital Future Hackathon. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
